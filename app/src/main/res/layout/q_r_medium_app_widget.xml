@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.WSACovid.AppWidget.Container"
+    android:layout_width="328sp"
+    android:layout_height="155sp"
+    android:gravity="center_vertical"
+    android:background="@drawable/qr_bg"
+    android:theme="@style/Theme.WSACovid.AppWidgetContainer">
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="135sp"
+        android:layout_height="135sp"
+        android:layout_marginStart="10sp"/>
+
+    <LinearLayout
+        android:layout_width="175sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:paddingStart="15sp"
+        android:orientation="vertical"
+        android:layout_marginStart="8sp"
+        android:background="@drawable/qr_bg"
+        android:backgroundTint="@color/red">
+
+        <ImageView
+            android:id="@+id/cases"
+            android:layout_width="match_parent"
+            android:layout_height="24sp"
+            android:layout_marginTop="15sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:theme="@style/SemiBold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="24sp"
+            android:layout_marginTop="2sp" />
+
+        <ImageView
+            android:id="@+id/vaccinated"
+            android:layout_width="match_parent"
+            android:layout_height="24sp"
+            android:layout_marginTop="2sp" />
+
+        <ImageView
+            android:id="@+id/recovered"
+            android:layout_width="match_parent"
+            android:layout_height="24sp"
+            android:layout_marginTop="2sp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WSACovid</string>
+
+    <string name="SignInDescription">if you don’t have account credentials, you can take it in near hospital in your city after vaccination</string>
+    <string name="Case">in skill area in the last 14 days</string>
+
+    <string name="ERROR1">We can’t find account with this credentials</string>
+    <string name="ERROR2">You need to have access to internet</string>
+    <string name="ERROR3">Email format is incorrect</string>
+    <string name="ERROR4">Communication with the server failed</string>
+    <string name="ERROR5">You haven’t report today’s health status.</string>
+
+    <string name="HomeText1">* Wear mask. Keep 2m distance. Wash hands.</string>
+    <string name="QRText">Use this QR-code in restaraunts and aerports You can’t give it to anyone else</string>
+    <string name="CheckListText1">Have you had any of the following symptoms in the last 24 hours ?</string>
+    <string name="CheckListText2">Add your photo for check you health with neural networks</string>
+</resources>

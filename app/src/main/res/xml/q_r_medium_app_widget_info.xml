@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/q_r_medium_app_widget"
+    android:initialLayout="@layout/q_r_medium_app_widget"
+    android:minWidth="328sp"
+    android:minHeight="155sp"
+    android:previewImage="@mipmap/ic_launcher_logo_round"
+    android:previewLayout="@layout/q_r_medium_app_widget"
+    android:resizeMode="none"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />

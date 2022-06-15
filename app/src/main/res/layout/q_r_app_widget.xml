@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.WSACovid.AppWidget.Container"
+    android:layout_width="155sp"
+    android:layout_height="155sp"
+    android:gravity="center"
+    android:background="@drawable/qr_bg"
+    android:theme="@style/Theme.WSACovid.AppWidgetContainer">
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="135sp"
+        android:layout_height="135sp" />
+</RelativeLayout>
